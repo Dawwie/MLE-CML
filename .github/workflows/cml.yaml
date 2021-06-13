@@ -1,3 +1,5 @@
+name: github-actions-test
+on: [push]
 jobs:
   run:
     runs-on: [ubuntu-latest]
