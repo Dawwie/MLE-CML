@@ -21,5 +21,5 @@ jobs:
         run: |
           python train.py
           cat results.txt >> report.md
-          cml-publish lin_reg_visualisation.png --md >> report.md
+          cml-publish lin_reg_plot.png --md >> report.md
           cml-send-comment report.md
